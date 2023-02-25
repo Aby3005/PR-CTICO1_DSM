@@ -1,5 +1,5 @@
 # PRACTICO1_DSM
-En este repositorio estan alojados 3 ejercicios sencillos desarrollados en Kotlin POO.
+En este repositorio están alojados 3 ejercicios sencillos desarrollados en Kotlin POO.
 
 La primera aplicación realiza el cálculo del promedio de un estudiante. Los datos que se deben ingresar para obtener el promedio son: cinco notas y el nombre del alumno. Esta app además de calcular el promedio muestra si el estudiante ha sido reprobado o aprobado.
 
