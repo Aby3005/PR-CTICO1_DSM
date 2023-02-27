@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alumno">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Promedio de un estudiante"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="410dp" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:hint="Nombre estudiante"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <EditText
+            android:id="@+id/txtNota1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:hint="Nota 1"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <EditText
+            android:id="@+id/txtNota2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:hint="Nota 2"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <EditText
+            android:id="@+id/txtNota3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:hint="Nota 3"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <EditText
+            android:id="@+id/txtNota4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:hint="Nota 4"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <EditText
+            android:id="@+id/txtNota5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:hint="Nota 5"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <Button
+            android:layout_marginBottom="15dp"
+            android:id="@+id/btnPromedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROMEDIO"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="314dp" />
+
+        <TextView
+            android:id="@+id/txtPromedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promedio: 0"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="410dp" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El estudiante ha: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="410dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

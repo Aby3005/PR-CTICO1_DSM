@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculadora">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Ingrese el valor de 2 números"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:hint="Ingrese primer valor"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <EditText
+            android:id="@+id/txtNum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:hint="Ingrese segundo valor"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="+"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSumar"
+                android:layout_weight="0.03"/>
+
+            <Button
+                android:text="-"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/minus"
+                android:layout_weight="0.03"/>
+
+            <Button
+                android:text="*"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/multiply"
+                android:layout_weight="0.03"/>
+
+            <Button
+                android:text="/"
+                android:layout_height="wrap_content"
+                android:id="@+id/divide"
+                android:layout_width="70dp"
+                android:layout_weight="0.03"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESULTADO"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="410dp"/>
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="410dp"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
